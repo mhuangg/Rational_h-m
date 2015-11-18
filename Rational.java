@@ -79,28 +79,4 @@ public class Rational {
         
         
     }
-}public class Rational{
-    private int numerator;
-    private int denominator;
-    public Rational(){
-	numerator=0;
-	denominator=1;
-    }
-    public Rational(int num, int den){
-	if (den=0){
-	    numerator=0;
-	    denominator=1;
-	}
-	else{
-	numerator=num;
-	denominator=den;
-        }
-    }
-    public String toString{
-	rationalNum=((double)this.numerator)/this.denominator;
-	rationalNum+="";
-	return rationalNum;
-    }
-    public float {
-    }
 }
